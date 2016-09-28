@@ -1,4 +1,16 @@
+//
+// console.log('Hello World! at external file');
+//
+// $name = 'Pedro';
+//
+// window.alert(window.$name);
+//
+// console.log(window);
 
-console.log("Hello World! at external file");
+hola('pedro');
 
-alert("Hola mon!");
+function hola($name) {
+    console.log('Hola ' + $name);
+
+
+}
