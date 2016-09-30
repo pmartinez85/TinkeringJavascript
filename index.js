@@ -1,16 +1,34 @@
 //
 // console.log('Hello World! at external file');
 //
-// $name = 'Pedro';
+//  $name = 'Pedro';
 //
-// window.alert(window.$name);
+//  window.alert(window.$name);
 //
-// console.log(window);
+//  console.log(window);
+//
+// hola('pedro');
+//
+// function hola($name) {
+//     console.log('Hola ' + $name);
+//
+//
+// }
 
-hola('pedro');
 
-function hola($name) {
-    console.log('Hola ' + $name);
+function fire(bool) {
+   // $name = 'Pedro';
+    //console.log('Hola ' + $name);
+    var foo
 
+    if (bool){
+       foo = 'bar';
 
+        console.log(foo);
+    } else {
+
+        console.log(foo);
+    }
 }
+
+fire(true);
