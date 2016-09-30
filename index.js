@@ -1,63 +1,53 @@
-var Person = {
+//OPP: Object Oriented Programming
 
-    'name' : 'Pedro',
-    'sn1' : 'Martínez',
-    'age' : 30,
-};
 
-var myApp ={}
+//JSON Javascript Object Notation
 
-myApp.name = 'Pedro ';
-myApp.sn1 = 'martínez ';
-myApp.sn2 = 'Segura';
+//Object Literal Notation
 
-myApp.hello = function(){
-    console.log('Hola ' + myApp.name +
-    myApp.sn1 + myApp.sn2 );
+//Person.hello = function(){
+
+//}
+
+var person = {
+    name : 'Pedro',
+    sn1 : 'Martínez',
+
+
+    hello: function(){
+        console.log('Hola' + this.name);
+
+    },
+    bye: function(){
+
+        return 'Bye bye' + this.name;
+    },
+
 }
 
-myApp.hello();
+
+console.log(person.name);
+console.log(person.bye());
+
+//The module paterrn
 
 
+var person = (function() {
+    var name = "Pedro";
+    var sn1 = "Martínez";
+    var sn2 = "Segura";
 
+        return {
+            hello: function () {
+                console.log('Hola' + this.name);
 
+            },
+            bye: function () {
 
-//
-// console.log('Hello World! at external file');
-//
-//  $name = 'Pedro';
-//
-//  window.alert(window.$name);
-//
-//  console.log(window);
-//
-// hola('pedro');
-//
-// function hola($name) {
-//     console.log('Hola ' + $name);
-//
-//
-// }
+                return 'Bye bye' + this.name;
+            }
+        }
 
-//
-// function fire(bool) {
-//    // $name = 'Pedro';
-//     //console.log('Hola ' + $name);
-//     var foo
-//
-//     if (bool){
-//        foo = 'bar';
-//
-//         console.log(foo);
-//     } else {
-//
-//         console.log(foo);
-//     }
-// }
-//
-// fire(true);
+})();
 
-
-
-
-
+person.bye();
