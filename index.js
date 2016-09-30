@@ -1,3 +1,27 @@
+var Person = {
+
+    'name' : 'Pedro',
+    'sn1' : 'Martínez',
+    'age' : 30,
+};
+
+var myApp ={}
+
+myApp.name = 'Pedro ';
+myApp.sn1 = 'martínez ';
+myApp.sn2 = 'Segura';
+
+myApp.hello = function(){
+    console.log('Hola ' + myApp.name +
+    myApp.sn1 + myApp.sn2 );
+}
+
+myApp.hello();
+
+
+
+
+
 //
 // console.log('Hello World! at external file');
 //
@@ -15,20 +39,25 @@
 //
 // }
 
+//
+// function fire(bool) {
+//    // $name = 'Pedro';
+//     //console.log('Hola ' + $name);
+//     var foo
+//
+//     if (bool){
+//        foo = 'bar';
+//
+//         console.log(foo);
+//     } else {
+//
+//         console.log(foo);
+//     }
+// }
+//
+// fire(true);
 
-function fire(bool) {
-   // $name = 'Pedro';
-    //console.log('Hola ' + $name);
-    var foo
 
-    if (bool){
-       foo = 'bar';
 
-        console.log(foo);
-    } else {
 
-        console.log(foo);
-    }
-}
 
-fire(true);
