@@ -1,0 +1,30 @@
+{
+  "name": "TinkeringJavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-11",
+    "laravel-elixir-webpack-official": "^1.0.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "laravel-elixir": "^6.0.0-11",
+    "laravel-elixir-browsersync-official": "^1.0.0",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-webpack-official": "^1.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:pmartinez85/TinkeringJavascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "git@github.com:pmartinez85/TinkeringJavascript.git/issues"
+  },
+  "homepage": "git@github.com:pmartinez85/TinkeringJavascript.git#readme"
+}
