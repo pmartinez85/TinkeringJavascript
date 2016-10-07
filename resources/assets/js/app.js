@@ -11,6 +11,7 @@ var person =  {
     firstname :"Pedro",
     lastname :"Martinez",
 
+
     showFullName:function () {
 
         console.log (this.firstname + " " + this.lastname);
