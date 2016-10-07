@@ -1,32 +1,16 @@
-//funcions constructores
+var calculateArea = function(){
 
-// function Persona(){
-//
-//     console.log('Creant un objecte');
-//
-// }
+    console.log('Aqui calculo area');
+}
 
+var Figure = function (){
 
-var Persona = function () {
-    this.name = name;
-    console.log('Creant un objecte');
+    //this.area = calculateArea;
 
 }
 
-Persona.prototype.sayHello = function(){
+Figure.prototype.area = calculateArea;
 
-    console.log('Heeeello ' + this.name);
-} //canviar la extensió...
+var figura = new Figure();
 
-console.log(Persona);
-
-var personeta1 = new Persona('prova1');
-var personeta2 = new Persona('prova2');
-var personeta3 = new Persona('prova3');
-
-console.log(personeta1.name);
-console.log(personeta1.sayHello());
-console.log(personeta2.name);
-console.log(personeta2.sayHello());
-console.log(personeta3.name);
-console.log(personeta3.sayHello());
+console.log(figura.area());
