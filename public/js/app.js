@@ -68,7 +68,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-eval("//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==");
+eval("//console.log('hello friday');\n\n//\"use strict\";\n\n//console.log(this); // this = Window\n\n//this is a script: objecte\n\nvar person =  {\n\n    firstname :\"Pedro\",\n    lastname :\"Martinez\",\n\n    showFullName:function () {\n\n        console.log (this.firstname + \" \" + this.lastname);\n    }\n};\n\nperson.showFullName(); //Pedro Martinez//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIi8vY29uc29sZS5sb2coJ2hlbGxvIGZyaWRheScpO1xuXG4vL1widXNlIHN0cmljdFwiO1xuXG4vL2NvbnNvbGUubG9nKHRoaXMpOyAvLyB0aGlzID0gV2luZG93XG5cbi8vdGhpcyBpcyBhIHNjcmlwdDogb2JqZWN0ZVxuXG52YXIgcGVyc29uID0gIHtcblxuICAgIGZpcnN0bmFtZSA6XCJQZWRyb1wiLFxuICAgIGxhc3RuYW1lIDpcIk1hcnRpbmV6XCIsXG5cbiAgICBzaG93RnVsbE5hbWU6ZnVuY3Rpb24gKCkge1xuXG4gICAgICAgIGNvbnNvbGUubG9nICh0aGlzLmZpcnN0bmFtZSArIFwiIFwiICsgdGhpcy5sYXN0bmFtZSk7XG4gICAgfVxufTtcblxucGVyc29uLnNob3dGdWxsTmFtZSgpOyAvL1BlZHJvIE1hcnRpbmV6XG5cblxuLy8gV0VCUEFDSyBGT09URVIgLy9cbi8vIHJlc291cmNlcy9hc3NldHMvanMvYXBwLmpzIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBOzs7Ozs7O0FBT0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=");
 
 /***/ }
 /******/ ]);
