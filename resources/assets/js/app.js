@@ -1,30 +1,32 @@
-//console.log('hello friday');
+//funcions constructores
 
-//"use strict";
+// function Persona(){
+//
+//     console.log('Creant un objecte');
+//
+// }
 
-//console.log(this); // this = Window
 
-//this is a script: objecte
+var Persona = function () {
+    this.name = name;
+    console.log('Creant un objecte');
 
-var showFullName = function() {
-    console.log(this.firstname + " " + this.sn1 + " " + arguments[0])
 }
 
-var name = "Pedro";
+Persona.prototype.sayHello = function(){
 
+    console.log('Heeeello ' + this.name);
+} //canviar la extensió...
 
-var person =  {
+console.log(Persona);
 
-    firstname: name,
-    sn1 :"Martinez",
-    fullname: showFullName
+var personeta1 = new Persona('prova1');
+var personeta2 = new Persona('prova2');
+var personeta3 = new Persona('prova3');
 
-
-    // showFullName:function () {
-    //
-    //     console.log (this.firstname + " " + this.sn1);
-    // }
-};
-
-person.showFullName(); //Pedro Martinez
-
+console.log(personeta1.name);
+console.log(personeta1.sayHello());
+console.log(personeta2.name);
+console.log(personeta2.sayHello());
+console.log(personeta3.name);
+console.log(personeta3.sayHello());
